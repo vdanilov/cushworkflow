@@ -11,6 +11,8 @@ endif;
 
 App::uses('Debugger', 'Utility');
 ?>
+
+<h1>!!!!!!!!!!</h1>
 <h2><?php echo __d('cake_dev', 'Release Notes for CakePHP %s.', Configure::version()); ?></h2>
 <p>
 	<?php echo $this->Html->link(__d('cake_dev', 'Read the changelog'), 'http://cakephp.org/changelogs/' . Configure::version()); ?>
